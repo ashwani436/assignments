@@ -25,7 +25,7 @@
   
   
   .topnav a:hover {
-    background-color: rgb(189, 152, 152);
+    background-color: rgb(189, 188, 152);
     color: rgb(77, 32, 32);
   }
   #outer{
@@ -33,7 +33,11 @@
     margin-right: 50px;
     height:1000px;
   }
+  p.groove{
+    border-style: groove;
+  }
   .outer_div{
+    border: round;
       margin-top: 60px;
     background-color: rgb(241, 240, 240);;
     
@@ -41,7 +45,7 @@
 
 .artical{
     display: inline-block;
-  margin: 50px;
+    margin: 50px;
 }
 
    #head{
@@ -52,8 +56,8 @@
   
  
   #btn{
-    background-color: #7b9ddd;
-    color: #ddd;
+    background-color: #1f65e9;
+    color:white;
     padding: 5px;
     border: #f2f2f2;
     font-size: medium;
@@ -72,7 +76,7 @@
   }
   .column{
     float:left;
-    width: 21.50%;
+    width: 22%;
     height: 370px;
     padding: 3px;
     border:1px solid gray;
@@ -94,11 +98,29 @@
     clear: both;
   }
   .btn{
-    background-color:rgb(69, 162, 250);
-    margin-left: 30px;
+    background-color:rgb(101, 173, 240);
+    margin: 10px 0px 20px 35px  ;
+    font-family: 'Arial';
+    font-size: 17px;
+    border-radius: 5px;
+    color:white;
   
   
         
+  }
+  .btn1{
+    background-color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    
+
+  }
+  .img{
+    width:100%;
+  }
+  h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(53, 50, 50);
   }
   h3{
       text-align: center;
@@ -108,12 +130,16 @@
   }
   #para{
           font-size:20px;
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
   }
   #g_para{
       text-align: center;
-      margin-left: 10px;
-      margin-right:10px;
-      margin-top: 5px;
+      margin: 10px 10px 0px 0px;
+  }
+  #foot{
+    position: relative;
+    margin-top: 100px;
   }
   @media screen and (max-width:600px) {
     .column {
