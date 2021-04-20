@@ -80,21 +80,15 @@
   }
   .column{
     float:left;
-    width: 22%;
+    width: 25%;
+    
+   
+  }
+  .box{
     height: 370px;
     padding: 3px;
     border:1px solid gray;
     margin-left: 45px;
-   
-  }
-  .box{
-     float:left;
-      margin-top: 0vh;
-      height:170px;
-      width: 230px;
-      background-color: rgb(173, 173, 173);
-      padding: 15px;
-      text-align: center;
   }
   .row:after{
     content: " ";
